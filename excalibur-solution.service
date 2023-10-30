@@ -1,0 +1,10 @@
+[Unit]
+Description=My solution to Casper Excalibur laptop's overclock issues.
+
+[Service]
+User=root
+WorkingDirectory=/usr/bin/
+ExecStart=autostart.sh
+
+[Install]
+WantedBy=multi-user.target
