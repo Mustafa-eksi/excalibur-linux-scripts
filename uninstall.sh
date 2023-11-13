@@ -1,5 +1,5 @@
 #!/bin/bash
-set -xe
+set -x
 rm /usr/bin/cpufreqminimal.sh
 rm /usr/bin/cpufreqmaximum.sh
 rm /usr/bin/excalibur_autostart.sh
