@@ -3,8 +3,7 @@ Description=My solution to Casper Excalibur laptop's overclock issues.
 
 [Service]
 User=root
-WorkingDirectory=/usr/bin/
-ExecStart=autostart.sh
+ExecStart=/usr/bin/excalibur_autostart.sh
 
 [Install]
 WantedBy=multi-user.target
