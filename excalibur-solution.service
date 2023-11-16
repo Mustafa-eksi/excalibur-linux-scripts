@@ -1,5 +1,6 @@
 [Unit]
 Description=My solution to Casper Excalibur laptop's overclock issues.
+After=com.system76.PowerDaemon.service
 
 [Service]
 User=root
